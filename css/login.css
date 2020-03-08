@@ -38,6 +38,12 @@
     width: 144px;
     height: 50px;
 }
+#userlogin {
+    padding-left: 20px;
+}
+#passlogin {
+    padding-left: 20px;
+}
 
 input {
     width: 300px;
