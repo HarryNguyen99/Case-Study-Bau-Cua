@@ -1,0 +1,217 @@
+.backgroud {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, #326467 0%, rgba(41, 79, 84, 0) 100%), #1B3B3C;
+}
+
+#imgbtn {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 528px;
+    top: 629px;
+}
+
+.imgbg {
+    position: absolute;
+    width: 651px;
+    height: 651px;
+    left: 268px;
+    top: 214px;
+}
+
+.bcc {
+    position: absolute;
+    width: 516px;
+    height: 90px;
+    left: 336px;
+    top: 260px;
+}
+
+#xiNgau1 {
+    position: absolute;
+    width: 133px;
+    height: 137px;
+    left: 336px;
+    top: 440px;
+}
+
+#xiNgau2 {
+    position: absolute;
+    width: 132px;
+    height: 137px;
+    left: 528px;
+    top: 440px;
+}
+
+#xiNgau3 {
+    position: absolute;
+    width: 133px;
+    height: 137px;
+    left: 719px;
+    top: 440px;
+}
+
+#nai {
+    position: absolute;
+    width: 200px;
+    height: 207.14px;
+    left: 957px;
+    top: 260px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#cua {
+    position: absolute;
+    width: 200px;
+    height: 207.82px;
+    left: 1202px;
+    top: 259px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ga {
+    position: absolute;
+    width: 200px;
+    height: 207.82px;
+    left: 1430px;
+    top: 259px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ca {
+    position: absolute;
+    width: 200px;
+    height: 207.82px;
+    left: 957px;
+    top: 517px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#bau {
+    position: absolute;
+    width: 200px;
+    height: 207.82px;
+    left: 1202px;
+    top: 517px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#tom {
+    position: absolute;
+    width: 200px;
+    height: 207.17px;
+    left: 1430px;
+    top: 517px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#coin {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 957px;
+    top: 207px;
+}
+
+#money {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 1013px;
+    top: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#naptien {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1250px;
+    top: 205px;
+}
+
+.coinCuoc1 {
+    position: absolute;
+    width: 680px;
+    height: 35px;
+    left: 957px;
+    top: 445px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.coinCuoc2 {
+    position: absolute;
+    width: 680px;
+    height: 35px;
+    left: 957px;
+    top: 705px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#chip50 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 957px;
+    top: 781px;
+}
+
+#chip100 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1076px;
+    top: 781px;
+}
+
+#chip200 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1195px;
+    top: 781px;
+}
+
+#chip500 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1314px;
+    top: 781px;
+}
+
+#chip1000 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1433px;
+    top: 781px;
+}
+
+#chip2000 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1552px;
+    top: 781px;
+}
+

@@ -1,0 +1,52 @@
+.signUpSuccess {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(180deg, #326467 0%, rgba(41, 79, 84, 0) 100%), #1B3B3C;
+}
+
+.logo {
+    position: absolute;
+    width: 516px;
+    height: 90px;
+    left: 696px;
+    top: 111px;
+}
+.check {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 919px;
+    top: 250px;
+}
+h2 {
+    position: absolute;
+    width: 439px;
+    height: 56px;
+    left: 740px;
+    top: 310px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #52FF00;
+
+}
+button {
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 888px;
+    top: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #52FF00;
+    box-sizing: border-box;
+    border-radius: 110px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
