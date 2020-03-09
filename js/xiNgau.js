@@ -27,8 +27,15 @@ function convert() {
 
     let xiNgau = new XiNgau(change_image1, change_image2, change_image3);
     let change1 = xiNgau.getimage1();
-    setTimeout(change1, 10000);
-    document.getElementById("xiNgau1").src = change_image1 [change1];
+    for (i = 0; i < 5; i++) {
+        (function() {
+          let timeOut =  setInterval(function () {
+                document.getElementById("xiNgau1").src = change_image1 [change1];
+                clearInterval(timeOut)
+            }, 3000);
+        })(change1);
+    }
+
     let change2 = xiNgau.getimage2();
     document.getElementById("xiNgau2").src = change_image2 [change2];
     let change3 = xiNgau.getimage3();
