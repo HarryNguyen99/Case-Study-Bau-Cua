@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Bầu Cua Cá</title>
     <link rel="stylesheet" href="css/homePage.css">
+
 </head>
-<body>
+<body onload="convert()">
 <div class="backgroud">
     <img class="imgbg" src="image/Trongdong.png">
     <div class="xiNgau">
@@ -13,7 +14,7 @@
         <img id="xiNgau1" src="image/nai.jpg">
         <img id="xiNgau2" src="image/cua.jpg">
         <img id="xiNgau3" src="image/ga.jpg">
-        <input type="image" id="imgbtn" name="imgbtn" src="image/lac.png"/>
+        <img id="imgbtn" name="imgbtn" src="image/lac.png" onclick="convert()"/>
     </div>
     <div class="play">
         <div class="coindiv">
@@ -53,5 +54,6 @@
         </div>
     </div>
 </div>
+<script src="js/xiNgau.js"></script>
 </body>
 </html>
