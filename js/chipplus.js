@@ -38,14 +38,70 @@ let chipImg6 = document.getElementById("chip2000");
 let chipCoin = new Chipplus(chipImg1, chipImg2, chipImg3, chipImg4, chipImg5, chipImg6);
 let arrImageObj = [imgNai, imgCua, imgGa, imgCa, imgBau, imgTom];
 
+let chip = 0;
 function chipPlus1() {
     for (let i = 0; i < arrImageObj.length; i++) {
-        arrImageObj[i] = status;
-        if (i == "false") {
+        arrImageObj[i] = conveImgNai;
+        if (i === "false") {
         } else {
-            chip1 = chipCoin.getImg1();;
-            document.getElementById("coinNai").innerHTML = chip1;
+            chip += chipCoin.getImg1();
+            document.getElementById("coinNai").innerHTML = chip;
+            break;
         }
     }
-
 }
+// function chipPlus2() {
+//     for (let i = 0; i < arrImageObj.length; i++) {
+//         arrImageObj[i] = conveImg;
+//         if (i === "false") {
+//         } else {
+//             chip += chipCoin.getImg2();
+//             document.getElementById("coinCua").innerHTML = chip;
+//             break;
+//         }
+//     }
+// }
+// function chipPlus3() {
+//     for (let i = 0; i < arrImageObj.length; i++) {
+//         arrImageObj[i] = conveImg;
+//         if (i === "false") {
+//         } else {
+//             chip += chipCoin.getImg3();
+//             document.getElementById("coinGa").innerHTML = chip;
+//             break;
+//         }
+//     }
+// }
+// function chipPlus4() {
+//     for (let i = 0; i < arrImageObj.length; i++) {
+//         arrImageObj[i] = conveImg;
+//         if (i === "false") {
+//         } else {
+//             chip += chipCoin.getImg4();
+//             document.getElementById("coinCa").innerHTML = chip;
+//             break;
+//         }
+//     }
+// }
+// function chipPlus5() {
+//     for (let i = 0; i < arrImageObj.length; i++) {
+//         arrImageObj[i] = conveImg;
+//         if (i === "false") {
+//         } else {
+//             chip += chipCoin.getImg5();
+//             document.getElementById("coinBau").innerHTML = chip;
+//             break;
+//         }
+//     }
+// }
+// function chipPlus6() {
+//     for (let i = 0; i < arrImageObj.length; i++) {
+//         arrImageObj[i] = conveImg;
+//         if (i === "false") {
+//         } else {
+//             chip += chipCoin.getImg6();
+//             document.getElementById("coinTom").innerHTML = chip;
+//             break;
+//         }
+//     }
+// }
