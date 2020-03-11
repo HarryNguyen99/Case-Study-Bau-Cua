@@ -6,7 +6,7 @@ class ImageObj {
         this.coin = coin;
 
         this.getstatus = function () {
-            return this.status = "false";
+            return this.status = false;
         };
 
     }
@@ -34,18 +34,15 @@ let checkImgCa = new ImageObj("ca", imgCa, status, coinCa);
 let checkImgBau = new ImageObj("bau", imgBau, status, coinBau);
 let checkImgTom = new ImageObj("tom", imgTom, status, coinTom);
 
+let arrayObj = [checkImgNai, checkImgCua, checkImgGa, checkImgCa, checkImgBau, checkImgTom];
 
-
-function statusImg(checkImgNaiObj, checkImgCuaObj, checkImgGaObj, checkImgCaObj, checkImgBauObj, checkImgTomObj ) {
-    checkImgNaiObj.status = "true";
-    checkImgBauObj.status = "false";
-    checkImgGaObj.status = "false";
-    checkImgCaObj.status = "false";
-    checkImgTomObj.status = "false";
-    checkImgCuaObj.status = "false";
-    conveImgNai = checkImgNai.getstatus();
-    conveImgNai = status;
-    // console.log(conveImgNai + "nai");
+function statusImg(id) {
+    for (let i = 0; i < arrayObj.length; i++) {
+        let test = arrayObj[i].id;
+        if (id === arrayObj[i].id) {
+            arrayObj[i].status = true;
+        } else {
+            arrayObj[i].getstatus();
+        }
+    }
 }
-
-

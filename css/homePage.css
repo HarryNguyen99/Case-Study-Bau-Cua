@@ -166,6 +166,11 @@
     color: #FFFFFF;
     text-align: center;
 }
+td {
+    width: 230px;
+    height: 35px;
+    text-align: center;
+}
 
 #chip50 {
     position: absolute;
