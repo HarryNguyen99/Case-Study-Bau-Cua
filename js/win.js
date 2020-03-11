@@ -19,14 +19,22 @@ function checkImage() {
     let imgXiNgau3 = document.getElementById("xiNgau3").src;
     let cutstrXiNgau3 = imgXiNgau3.substr(48, 55);
 
-    let arrCutStrImgObj = [cutstrNai, cutstrCua, cutstrGa, cutstrCa, cutstrBau, cutstrTom];
-    let arrCoinObj = [coinNaiNum, coinCuaNum, coinGaNum, coinCaNum, coinBauNum, coinTomNum];
-    for (let i = 0; i < arrCutStrImgObj.length; i++){
-        if (cutstrXiNgau1 === arrCutStrImgObj[i]) {
+    let arrCutStrImgObj = [cutstrNai, cutstrCua, cutstrGa,
+                            cutstrCa, cutstrBau, cutstrTom];
+    // undefined
+    console.log(arrCutStrImgObj[cutstrNai]);
+    let arrCoinObj = [coinNaiNum, coinCuaNum, coinGaNum,
+                        coinCaNum, coinBauNum, coinTomNum];
+    // 0
+    console.log(arrCoinObj[coinCuaNum]);
+    for (let i = 0; i < arrCutStrImgObj.length; i++) {
+
+        if (cutstrXiNgau1 == arrCutStrImgObj[i]) {
             let sum = 0;
-            for (let j = 0; j < arrCoinObj.length; j++){
-                if (arrCutStrImgObj[i] == arrCoinObj[j]){
-                    sum = totalM + arrCoinObj[i];
+            for (let j = 0; j < arrCoinObj.length; j++) {
+
+                if (arrCutStrImgObj[i] == arrCoinObj[j]) {
+                    sum += totalM + arrCoinObj[i];
                     console.log(sum);
                     break;
                 }

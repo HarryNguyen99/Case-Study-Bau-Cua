@@ -22,23 +22,23 @@ let imgTom = document.getElementById("tom");
 let coinNai = document.getElementById("coinNai").textContent;
 let coinNaiNum = parseInt(coinNai);
 let coinCua = document.getElementById("coinCua").textContent;
-let coinCuaNum = parseInt(coinNai);
+let coinCuaNum = parseInt(coinCua);
 let coinGa = document.getElementById("coinGa").textContent;
-let coinGaNum = parseInt(coinNai);
+let coinGaNum = parseInt(coinGa);
 let coinCa = document.getElementById("coinCa").textContent;
-let coinCaNum = parseInt(coinNai);
+let coinCaNum = parseInt(coinCa);
 let coinBau = document.getElementById("coinBau").textContent;
-let coinBauNum = parseInt(coinNai);
+let coinBauNum = parseInt(coinBau);
 let coinTom = document.getElementById("coinTom").textContent;
-let coinTomNum = parseInt(coinNai);
+let coinTomNum = parseInt(coinTom);
 
 
-let checkImgNai = new ImageObj("nai", imgNai, status, coinNai);
-let checkImgCua = new ImageObj("cua", imgCua, status, coinCua);
-let checkImgGa = new ImageObj("ga", imgGa, status, coinGa);
-let checkImgCa = new ImageObj("ca", imgCa, status, coinCa);
-let checkImgBau = new ImageObj("bau", imgBau, status, coinBau);
-let checkImgTom = new ImageObj("tom", imgTom, status, coinTom);
+let checkImgNai = new ImageObj("nai", imgNai, status, coinNaiNum);
+let checkImgCua = new ImageObj("cua", imgCua, status, coinCuaNum);
+let checkImgGa = new ImageObj("ga", imgGa, status, coinGaNum);
+let checkImgCa = new ImageObj("ca", imgCa, status, coinCaNum);
+let checkImgBau = new ImageObj("bau", imgBau, status, coinBauNum);
+let checkImgTom = new ImageObj("tom", imgTom, status, coinTomNum);
 
 let arrayObj = [checkImgNai, checkImgCua, checkImgGa, checkImgCa, checkImgBau, checkImgTom];
 
