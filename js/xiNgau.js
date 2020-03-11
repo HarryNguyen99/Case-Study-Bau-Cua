@@ -37,6 +37,7 @@ function convert() {
         time = time - 1;
         if (time <= 0) {
             clearInterval(timeValue);
+            checkImage();
         }
     }, 50);
 

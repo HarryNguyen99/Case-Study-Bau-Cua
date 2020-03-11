@@ -20,11 +20,17 @@ let imgBau = document.getElementById("bau");
 let imgTom = document.getElementById("tom");
 
 let coinNai = document.getElementById("coinNai").textContent;
+let coinNaiNum = parseInt(coinNai);
 let coinCua = document.getElementById("coinCua").textContent;
+let coinCuaNum = parseInt(coinNai);
 let coinGa = document.getElementById("coinGa").textContent;
+let coinGaNum = parseInt(coinNai);
 let coinCa = document.getElementById("coinCa").textContent;
+let coinCaNum = parseInt(coinNai);
 let coinBau = document.getElementById("coinBau").textContent;
+let coinBauNum = parseInt(coinNai);
 let coinTom = document.getElementById("coinTom").textContent;
+let coinTomNum = parseInt(coinNai);
 
 
 let checkImgNai = new ImageObj("nai", imgNai, status, coinNai);
