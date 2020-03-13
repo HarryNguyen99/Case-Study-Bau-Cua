@@ -114,3 +114,6 @@ function showCoin() {
     document.getElementById("coinTom").innerHTML = "0";
 
 }
+function refresh() {
+    location.reload();
+}

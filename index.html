@@ -3,31 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Bầu Cua Cá</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/homePage.css">
 </head>
 <body>
-<div class="login">
-    <img class="logo" src="image/bcc.png" \>
-    <div class="login2">
-        <table>
-            <tr>
-                <td class="ueser" colspan="2"><input type="text" id="userlogin" placeholder="Username" name="Username"/>
-                </td>
-            </tr>
-            <tr>
-                <td class="pass" colspan="2"><input type="password" id="passlogin" placeholder="Password"
-                                                    name="Password"/></td>
-            </tr>
-            <tr>
-                <td class="log_in">
-                    <button>Đăng Nhập</button>
-                </td>
-                <td class="register">
-                    <button>Đăng Ký</button>
-                </td>
-            </tr>
-        </table>
+<div class="backgroud">
+    <img class="imgbg" src="image/Trongdong.png">
+    <div class="xiNgau">
+        <img class="bcc" src="image/bcc.png">
+        <img id="xiNgau1" src="image/nai.jpg">
+        <img id="xiNgau2" src="image/cua.jpg">
+        <img id="xiNgau3" src="image/ga.jpg">
+        <img id="imgbtn" name="imgbtn" src="image/lac.png" onclick="rollDice()"/>
+        <img id="taiLai" src="image/tai_lai.png" onclick="refresh()"/>
+        <img id="continue" src="image/choi_tiep.png" onclick="showCoin()"/>
+    </div>
+    <div class="play">
+        <div class="coindiv">
+            <img id="coin" src="image/coin.png">
+            <p id="money">100000</p>
+            <input id="naptien" type="image" name="imgnapTien" src="image/naptien.png"
+                   onclick="pay_Money()"/>
+        </div>
+        <div>
+            <input id="nai" type="image" src="image/nai.jpg" onclick="statusImg(this.id)"/>
+            <input id="cua" type="image" src="image/cua.jpg" onclick="statusImg(this.id)"/>
+            <input id="ga" type="image" src="image/ga.jpg" onclick="statusImg(this.id)"/>
+            <table class="coinCuoc1">
+                <tr>
+                    <td><p id="coinNai">0</p></td>
+                    <td><p id="coinCua">0</p></td>
+                    <td><p id="coinGa">0</p></td>
+                </tr>
+            </table>
+            <input id="ca" type="image" src="image/ca.jpg" onclick="statusImg(this.id)"/>
+            <input id="bau" type="image" src="image/bau.jpg" onclick="statusImg(this.id)"/>
+            <input id="tom" type="image" src="image/tom.jpg" onclick="statusImg(this.id)"/>
+            <table class="coinCuoc2">
+                <tr>
+                    <td><p id="coinCa">0</p></td>
+                    <td><p id="coinBau">0</p></td>
+                    <td><p id="coinTom">0</p></td>
+                </tr>
+            </table>
+            <div>
+                <input id="chip50" type="image" src="image/chip50.png" onclick="chipPlus1()">
+                <input id="chip100" type="image" src="image/chip100.png" onclick="chipPlus2()"/>
+                <input id="chip200" type="image" src="image/chip200.png" onclick="chipPlus3()"/>
+                <input id="chip500" type="image" src="image/chip500.png" onclick="chipPlus4()"/>
+                <input id="chip1000" type="image" src="image/chip1000.png" onclick="chipPlus5()"/>
+                <input id="chip2000" type="image" src="image/chip2000.png" onclick="chipPlus6()"/>
+            </div>
+        </div>
     </div>
 </div>
+<script src="js/imageObj.js"></script>
+<script src="js/chipplus.js"></script>
+<script src="js/totalMoney.js"></script>
+<script src="js/Dice.js"></script>
+<script src="js/Gameboard.js"></script>
 </body>
 </html>

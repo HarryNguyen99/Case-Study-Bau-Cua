@@ -166,6 +166,7 @@
     color: #FFFFFF;
     text-align: center;
 }
+
 td {
     width: 230px;
     height: 35px;
@@ -220,3 +221,18 @@ td {
     top: 781px;
 }
 
+#taiLai {
+    position: absolute;
+    width: 302px;
+    height: 131px;
+    left: 310px;
+    top: 781px;
+}
+
+#continue {
+    position: absolute;
+    width: 302px;
+    height: 130px;
+    left: 575px;
+    top: 782px;
+}
