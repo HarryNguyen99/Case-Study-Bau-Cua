@@ -4,19 +4,17 @@ class TotalMoney {
         this.payment = payment;
 
         this.getPayM = function () {
-            return this.payment + this.money;
+            return this.money + this.payment ;
         }
     }
 }
-let totalMoney = document.getElementById("money").innerHTML;
+let totalMoney = document.getElementById("money").textContent;
 let totalM = parseInt(totalMoney);
-let payImg = document.getElementById("naptien");
-
-let payM = new TotalMoney(totalM,payImg);
 
 function pay_Money() {
      payImg = +prompt("nhập số tiền cần nạp");
+    let payM = new TotalMoney(totalM,payImg);
     let pay = payM.getPayM();
-    console.log(pay)
-    // document.getElementById("money").innerHTML = pay;
+    document.getElementById("money").innerHTML = pay;
+    totalM = pay;
 }
