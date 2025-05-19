@@ -44,12 +44,6 @@ function statusImg(id) {
             arrayObj[i].getstatus();
         }
     }
-    chipCoinNai = 0;
-    chipCoinCua = 0;
-    chipCoinGa = 0;
-    chipCoinCa = 0;
-    chipCoinBau = 0;
-    chipCoinTom = 0;
 }
 
 // lắc xí ngầu
